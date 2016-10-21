@@ -5,7 +5,7 @@
               <li><i class="ion-ios-location"  style="font-size: 20px;"></i>&nbsp;&nbsp;&nbsp;San Jose, CA 95110</li>
               <li><i class="ion-android-phone-portrait"  style="font-size: 20px;"></i>&nbsp;&nbsp;&nbsp;(916) 420-4484</li>
               <li><i class="ion-email"  style="font-size: 20px;"></i><a href="mailto:">&nbsp;&nbsp;tnguyen.h@gmail.com</a></li>
-              <li><i class="ion-ios-world-outline"  style="font-size: 20px;"></i>&nbsp;&nbsp;<a href="">http://www.troynguyen.xyz</a></li>
+              <li><i class="ion-ios-world-outline"  style="font-size: 20px;"></i>&nbsp;&nbsp;<a href="http://www.troynguyen.xyz">troynguyen.xyz</a></li>
         </ul>
       </div>
       <div class="col-md-4">
