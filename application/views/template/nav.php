@@ -8,7 +8,7 @@
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
          </button>
-           <a class="navbar-brand" href="<?php echo base_url(); ?>"><p class="brand-name">Troy Nguyen <img src="<?php echo base_url('assets/img/brand.png');  ?>"  style='width:42px;height:42px' ></img></p></a>
+           <a class="navbar-brand" href="<?php echo base_url(); ?>"><p class="brand-name" style="vertical-align: text-top;">Troy Nguyen <img src="<?php echo base_url('assets/img/brand.png');  ?>"  style='width:42px;height:42px' ></img></p></a>
        </div>
        <div class="navbar-collapse collapse" id="bs-navbar">
            <ul class="nav navbar-nav">

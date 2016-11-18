@@ -23,114 +23,194 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
-                <h2>Summary</h2>
+                <h2 class="wow fadeIn">Summary</h2>
                 <br>
-                <p>
-                    BLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus odio augue, vel placerat sem tempus quis.
-                    Aliquam erat volutpat. Curabitur commodo, risus sed dictum viverra, enim tortor blandit sem, vel lacinia urna nulla vitae eros.
-                     Mauris auctor, risus non pulvinar aliquet, urna ante venenatis nibh, vel vestibulum leo nibh et lectus. Sed ornare tincidunt erat, finibus mollis arcu tempor et.
-                     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut volutpat felis sit amet porttitor euismod.
+                <p class="wow fadeIn">
+                  I'm a graduating senior at San Jose State with a part-time job as a Software QA Engineer. I have proven full-stack development knowledge from industry and academic. I am always looking for new challenges to expand my key skills.
                 </p>
-                <a href="#resume" class="btn btn-default btn-xl page-scroll">Learn More</a>
+                <center><a href="#contact" class="button button--size-s button--winnona button--border-thick button--text-thick" role="button">Contact Me</a></center>
             </div>
         </div>
     </div>
 </section>
-<section class="container-fluid" id="resume">
-    <div class="row">
-        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-            <center><h2>Features</h2></center>
-            <hr>
-            <div class="media wow fadeInRight">
-                <h3>Simple</h3>
-                <div class="media-body media-middle">
-                    <p>What could be easier? Get started fast with this landing page starter theme.</p>
-                </div>
-                <div class="media-right">
-                    <i class="icon-lg ion-ios-bolt-outline"></i>
-                </div>
-            </div>
-            <hr>
-            <div class="media wow fadeIn">
-                <h3>Free</h3>
-                <div class="media-left">
-                    <a href="#alertModal" data-toggle="modal" data-target="#alertModal"><i class="icon-lg ion-ios-cloud-download-outline"></i></a>
-                </div>
-                <div class="media-body media-middle">
-                    <p>Yes, please. Grab it for yourself, and make something awesome with this.</p>
-                </div>
-            </div>
-            <hr>
-            <div class="media wow fadeInRight">
-                <h3>Unique</h3>
-                <div class="media-body media-middle">
-                    <p>Because you don't want your Bootstrap site, to look like a Bootstrap site.</p>
-                </div>
-                <div class="media-right">
-                    <i class="icon-lg ion-ios-snowy"></i>
-                </div>
-            </div>
-            <hr>
-            <div class="media wow fadeIn">
-                <h3>Popular</h3>
-                <div class="media-left">
-                    <i class="icon-lg ion-ios-heart-outline"></i>
-                </div>
-                <div class="media-body media-middle">
-                    <p>There's good reason why Bootstrap is the most used frontend framework in the world.</p>
-                </div>
-            </div>
-            <hr>
-            <div class="media wow fadeInRight">
-                <h3>Tested</h3>
-                <div class="media-body media-middle">
-                    <p>Bootstrap is matured and well-tested. It's a stable codebase that provides consistency.</p>
-                </div>
-                <div class="media-right">
-                    <i class="icon-lg ion-ios-flask-outline"></i>
-                </div>
-            </div>
-        </div>
-    </div>
+
+<section id="resume" class="container-fluid">
+			<div class="container">
+        <center><h2>Resume</h2></center>
+        <hr>
+
+				<div class="row education">
+
+					<div class="col-md-3 wow bounceInLeft">
+						<h3>Education</h3>
+					</div>
+
+          <div class="col-md-6 col-sm-8 wow bounceInDown">
+            <h4><strong>Software Engineering, B.S.</strong></h4>
+            <dl>Numerous group/individual projects in Java and JUnit using Agile or Waterfall methodology. Also enjoyed working with several full-stack web development projects using
+              PHP, HTML5/CSS3, Javascript, JQuery, Ajax, MySQL, node.js, Codeigniter, Bootstrap, and AWS.</dl>
+          </div>
+
+          <div class="col-md-3 wow bounceInRight">
+          <h4>	<i class="ion-university"></i>&nbsp;<strong>San Jose State University</strong></h4>
+            <i class="ion-calendar"></i>&nbsp;&nbsp;&nbsp;Expected Fall 2016
+            <hr class="visible-xs">
+          </div>
+
+					<div class="col-md-6 col-md-offset-3 col-sm-8 wow bounceInDown">
+						<h4><strong>Mathematics, A.S. </strong></h4>
+						<dl>Completed required coursework for transferring to SJSU. Picked up several years of Java, C++, HTML5/CSS3, and Javascript knowledge before transferring.</dl>
+					</div>
+
+					<div class="col-md-3 col-sm-4 wow bounceInRight">
+						<h4><i class="ion-university"></i>&nbsp;<strong>Sacramento City College</strong></h4>
+						<i class="ion-calendar"></i>&nbsp;&nbsp;&nbsp;2010 - 2014
+					</div>
+
+				</div><!-- .row -->
+
+				<div class="row experience">
+
+					<div class="col-md-3 wow bounceInLeft">
+						<h3>Experience</h3>
+					</div>
+
+					<div class="col-md-6 col-sm-8 wow bounceInUp">
+						<h4><strong>Software QA Engineer, Intern</strong></h4>
+            <dl>
+              <dd>-Report and track bugs, replicate reported customer bugs, verify bug fixes and new functionalities, regression test new releases.</dd>
+              <dd>-Write test plan and test cases (including regression, performance, smoke, stress, and functional testing).</dd>
+              <dd>-Develop various internal testing software applications using C#.</dd>
+            </dl>
+					</div>
+
+					<div class="col-md-3 col-sm-4 wow bounceInRight">
+						<h4><i class="ion-briefcase"></i>&nbsp;<strong>DCGSystems</strong> <small>(now part of Thermo Fisher)</small></h4>
+						<i class="ion-calendar"></i>&nbsp;&nbsp;Jun 2015 - Present
+					</div>
+
+					<div class="col-md-6 col-md-offset-3 col-sm-8 wow bounceInUp">
+            <h4><strong>Test System Operator</strong></h4>
+            <dl>
+              <dd>-Executed over-the-air and conducted radio frequency tests using extensive systems and chambers.</dd>
+              <dd>-Assisted engineers, project managers, and on-site customers running variety of tests for CTIA certification.</dd>
+              <dd>-Served as a mentor and advisor on technical issues. </dd>
+            </dl>
+					</div>
+
+					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+            <h4><i class="ion-briefcase"></i>&nbsp;<strong>7Layers</strong></h4>
+						<i class="ion-calendar"></i>&nbsp;&nbsp;Jun 2014 - Jun 2015
+					</div>
+
+
+          <div class="col-md-6 col-md-offset-3 col-sm-8 wow bounceInUp">
+            <h4><strong>Computer Technician</strong></h4>
+            <dl>
+              <dd>-Maintained, repaired, troubleshot, and serviced computer software/hardware equipment to low income families.</dd>
+              <dd>-Supported development and implementation on new computer projects.</dd>
+              <dd>-Taught K-12 students in private one-on-one or in group session on computer technologies.</dd>
+            </dl>
+          </div>
+
+          <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+            <h4><i class="ion-briefcase"></i>&nbsp;<strong>Computer 4 Kids</strong></h4>
+            <i class="ion-calendar"></i>&nbsp;&nbsp;Jun 2012 - Jun 2014
+          </div>
+
+				</div><!-- .row -->
+
+				<div class="row">
+
+					<div class="col-md-6 col-md-offset-3 wow bounceInUp">
+						<a class="button button--winnona button--border-thick button--text-thick" role="button"
+            href="https://s3-us-west-1.amazonaws.com/resume.troynguyen.xyz/Troy+Nguyen+Software+Engineer+Resume.pdf" download="Troy Nguyen Software Engineering Resume">Download Résumé</a>
+					</div>
+				</div><!-- .row -->
+
+			</div><!-- .container -->
+
 </section>
+
 <section id="skills">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Flexible Layouts</h2>
+                <h2>Skillset</h2>
                 <hr class="primary">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 text-center">
-                <div class="feature">
-                    <i class="icon-lg ion-android-laptop wow fadeIn" data-wow-delay=".3s"></i>
-                    <h3>Responsive</h3>
-                    <p class="text-muted">Your site looks good everywhere</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 text-center">
-                <div class="feature">
-                    <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
-                    <h3>Customizable</h3>
-                    <p class="text-muted">Easy to theme and customize with SASS</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 text-center">
-                <div class="feature">
-                    <i class="icon-lg ion-ios-star-outline wow fadeIn" data-wow-delay=".3s"></i>
-                    <h3>Consistent</h3>
-                    <p class="text-muted">A mature, well-tested, stable codebase</p>
-                </div>
-            </div>
-        </div>
-    </div>
+
+                <div id="codeconSkills">
+
+                  <div class="codeconSkillbar">
+                    <div id="codeconHTML">
+                      <span class="codeconSkillArea">HTML</span>
+                    </div>
+                  </div>
+
+                  <div class="codeconSkillbar">
+                    <div id="codeconCSS">
+                      <span class="codeconSkillArea">CSS/CSS3</span>
+                    </div>
+                  </div>
+
+                  <div class="codeconSkillbar">
+                    <div id="codeconjQuery">
+                      <span class="codeconSkillArea ">jQuery</span>
+                    </div>
+                  </div>
+
+                  <div class="codeconSkillbar">
+                    <div id="codeconJS">
+                      <span class="codeconSkillArea ">Javascript</span>
+                    </div>
+                  </div>
+
+                  <div class="codeconSkillbar">
+                    <div id="codeconPython">
+                      <span class="codeconSkillArea">Python</span>
+                    </div>
+                  </div>
+
+                  <div class="codeconSkillbar">
+                    <div id="codeconC">
+                      <span class="codeconSkillArea ">C#/C++</span>
+                    </div>
+                  </div>
+
+                  <div class="codeconSkillbar">
+                    <div id="codeconJAVA">
+                      <span class="codeconSkillArea ">Java</span>
+                    </div>
+                  </div>
+
+                  <div class="codeconSkillbar">
+                    <div id="codeconPHP">
+                      <span class="codeconSkillArea ">PHP</span>
+                    </div>
+                  </div>
+
+                  <div class="codeconSkillbar">
+                    <div id="codeconSQL">
+                      <span class="codeconSkillArea">SQL</span>
+                    </div>
+                  </div>
+
+                  <div class="codeconSkillbar">
+                    <div id="codeconNodeJS">
+                      <span class="codeconSkillArea ">Node.js</span>
+                    </div>
+                  </div>
+
+                </div> <!-- End codeconSkills -->
+            </div> <!-- End col -->
+        </div> <!-- End row -->
+    </div> <!-- End container -->
 </section>
-<section id="portfolio" class="no-padding">
-    <div class="container-fluid">
-        <div class="row no-gutter">
+<section id="portfolio">
+    <div class="container">
+      <h2 class="text-center wow fadeIn"> My work </h2>
+      <p class="text-center"> To be uploaded soon.</p>
+        <div class="row">
             <div class="col-lg-3 col-sm-6">
               <div class="hovereffect">
                    <img class="img-responsive" src="http://dreamworksol.com/images/html5_css3_javascript.jpg" alt="">
@@ -212,62 +292,32 @@
         </div>
     </div>
 </section>
-<aside>
-    <div class="container text-center">
-        <div class="call-to-action">
-            <h2>Get Started</h2>
-            <a href="http://www.bootstrapzero.com/bootstrap-template/landing-zero" target="ext" class="btn btn-default btn-lg wow flipInX">Free Download</a>
-        </div>
-        <br>
-        <hr/>
-        <br>
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
-                <div class="row">
-                    <h6 class="wide-space text-center">BOOTSTRAP IS BASED ON THESE STANDARDS</h6>
-                    <div class="col-sm-3 col-xs-6 text-center">
-                        <i class="icon-lg ion-social-html5-outline" title="html 5"></i>
-                    </div>
-                    <div class="col-sm-3 col-xs-6 text-center">
-                        <i class="icon-lg ion-social-sass" title="sass"></i>
-                    </div>
-                    <div class="col-sm-3 col-xs-6 text-center">
-                        <i class="icon-lg ion-social-javascript-outline" title="javascript"></i>
-                    </div>
-                    <div class="col-sm-3 col-xs-6 text-center">
-                        <i class="icon-lg ion-social-css3-outline" title="css 3"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</aside>
 
 <section id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="margin-top-0 wow fadeIn themed1">Contact</h2>
+                <h2 class="margin-top-0 wow fadeInDown themed1">Contact</h2>
                 <hr class="primary">
-                <p>Opportunity Available? Email Me.</p>
+                <p class="wow fadeInDown">Opportunity Available? Email Me.</p>
             </div>
             <div class="col-lg-10 col-lg-offset-1 text-center">
                 <form class="contact-form row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow fadeInLeft">
                         <label></label>
                         <input type="text" class="form-control" placeholder="Name">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow fadeInRight">
                         <label></label>
                         <input type="text" class="form-control" placeholder="Email">
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow fadeInUp">
                         <label></label>
                         <textarea class="form-control" rows="9" placeholder="Your message here.."></textarea>
                     </div>
-                    <div class="col-md-4 col-md-offset-4">
+                    <div class="col-md-4 col-md-offset-4 wow fadeIn">
                         <label></label>
-                        <button type="button" class="btn btn-default btn-block btn-lg wow flipInX">Send <i class="ion-android-arrow-forward"></i></button>
+                        <center><a href="mailto:troynguyen.h@gmail.com" class="button button--size-s button--winnona button--border-thick button--text-thick" role="button">Email Me</a></center>
                     </div>
                 </form>
             </div>

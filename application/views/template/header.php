@@ -15,9 +15,11 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" />
 	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/custom.css"); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/animations.css"); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/styles.css"); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/buttons.css"); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/normalize.css"); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/skill_bar.css"); ?>">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
