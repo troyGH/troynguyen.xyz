@@ -1,92 +1,56 @@
-//Google Map Stuff
-function initMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 37.3352, lng: -121.8811},
-    zoom: 5
-  });
-  var input = document.getElementById('pac-input');
-  var autocomplete = new google.maps.places.Autocomplete(input);
+var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
 
-  // Try HTML5 geolocation.
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      var pos = {
-        lat: position.coords.latitude,
-        lng: position.coords.longitude
-    };
-    map.setCenter(pos);
-    map.setZoom(13);
-  });
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
   }
 
-  autocomplete.bindTo('bounds', map);
-  autocomplete.setTypes(['(regions)']);
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
-  map.controls[google.maps.ControlPosition.TOP_CENTER].push(input);
+  var that = this;
+  var delta = 300 - Math.random() * 100;
 
-  var infowindow = new google.maps.InfoWindow();
-  var marker = new google.maps.Marker({
-    map: map
-  });
-  marker.addListener('click', function() {
-    infowindow.open(map, marker);
-  });
+  if (this.isDeleting) { delta /= 2; }
 
-  autocomplete.addListener('place_changed', function() {
-    infowindow.close();
-    var place = autocomplete.getPlace();
-    if (!place.geometry) {
-      return;
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
     }
-
-    if (place.geometry.viewport) {
-      map.fitBounds(place.geometry.viewport);
-    } else {
-      map.setCenter(place.geometry.location);
-      map.setZoom(18);
-    }
-
-    // Set the position of the marker using the place ID and location.
-    marker.setPlace({
-      placeId: place.place_id,
-      location: place.geometry.location
-    });
-    marker.setVisible(true);
-
-    infowindow.setContent('<div><strong>' + place.formatted_address + '</strong><br>');
-
-    infowindow.open(map, marker);
-
-  });
-}
-
-function confirmDelete() {
-	bootbox.confirm({
-	    message: "Are you sure you want to delete your account? This can not be undone.",
-	    buttons: {
-	        confirm: {
-	            label: 'Delete',
-	            className: 'btn-danger'
-	        },
-	        cancel: {
-	            label: 'Cancel',
-	            className: 'btn'
-	        }
-	    },
-	    callback: function (result) {
-	        if (result) {
-	            $.ajax({
-	                url: 'editProfile/deleteUser',
-	                type: 'POST'
-	            });
-	            $('.well').append('<div class="alert alert-success text-center">You have Successfully Deleted your account! You will be redirected shortly.</div>');
-	            var delay = 3000;
-	            setTimeout(function() {
-	            	location.href='home/index';
-	            }, delay);
-
-
-	        }
-	    }
-	});
-}
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};

@@ -20,6 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/buttons.css"); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/normalize.css"); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/skill_bar.css"); ?>">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/custom.css"); ?>">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>

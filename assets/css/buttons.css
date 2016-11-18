@@ -59,12 +59,15 @@
 /* Borders */
 .button--border-thin {
 	border: 1px solid;
+	border-color: #FF606E;
 }
 .button--border-medium {
 	border: 2px solid;
+	border-color: #FF606E;
 }
 .button--border-thick {
 	border: 3px solid;
+	border-color: #FF606E;
 }
 
 /* Individual button styles */

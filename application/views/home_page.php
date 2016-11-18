@@ -13,9 +13,13 @@
         <div class="inner wow bounceInDown">
             <h1>Hello, I'm Troy Nguyen</h1>
             <hr>
-            <h3>
-              <span>Software Engineer | Full Stack Developer | San Jose State Graduating Senior</span>
-            </h3>
+            <link href="http://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+            <h2>I'm a
+              <span
+                 class="txt-rotate"
+                 data-period="1000"
+                 data-rotate='[ "Software Engineer.", "Full Stack Developer.", "SJSU Graduating Senior." ]'></span>
+            </h2>
         </div>
     </div>
 </header>
@@ -78,23 +82,24 @@
 					<div class="col-md-6 col-sm-8 wow bounceInUp">
 						<h4><strong>Software QA Engineer, Intern</strong></h4>
             <dl>
-              <dd>-Report and track bugs, replicate reported customer bugs, verify bug fixes and new functionalities, regression test new releases.</dd>
-              <dd>-Write test plan and test cases (including regression, performance, smoke, stress, and functional testing).</dd>
-              <dd>-Develop various internal testing software applications using C#.</dd>
+              <dd>-Became the primary QA contact to resolve over 87% of high customer impact bugs for Sierra Elite Branch.</dd>
+              <dd>-Took the initiative to write the 2016 Alpha test plan with 500 test cases which helped find many important bugs before Beta release.</dd>
+              <dd>-<i>Advanced Multi-I/O Excitation Control</i> (2015). Took on an extra project and developed an internal C# software program that measured or generated voltage, current, and frequency from a power supply or thermal camera using a multi-function data acquisition National Instruments device.</dd>
+              <dd>-<i>Wafer Stage Repeatability Test Module</i> (2015). Took on an extra project and developed an internal C# software program that calculated the repeatability error for each wafer die to speed up the slower backlash compensation feature that the system had been experiencing.</dd>
             </dl>
 					</div>
 
 					<div class="col-md-3 col-sm-4 wow bounceInRight">
-						<h4><i class="ion-briefcase"></i>&nbsp;<strong>DCGSystems</strong> <small>(now part of Thermo Fisher)</small></h4>
+						<h4><i class="ion-briefcase"></i>&nbsp;<strong>DCGSystems</strong> <small>(now part of <strong>Thermo Fisher</strong>)</small></h4>
 						<i class="ion-calendar"></i>&nbsp;&nbsp;Jun 2015 - Present
 					</div>
 
 					<div class="col-md-6 col-md-offset-3 col-sm-8 wow bounceInUp">
             <h4><strong>Test System Operator</strong></h4>
             <dl>
-              <dd>-Executed over-the-air and conducted radio frequency tests using extensive systems and chambers.</dd>
-              <dd>-Assisted engineers, project managers, and on-site customers running variety of tests for CTIA certification.</dd>
-              <dd>-Served as a mentor and advisor on technical issues. </dd>
+              <dd>-Became the go-to operator in 3 months for important over-the-air and conducted radio frequency tests for CTIA certification.</dd>
+              <dd>-Supported project managers in securing a multi-million-dollar contract by solving technical difficulties when short-staffed.</dd>
+              <dd>-Coached and acted as subject matter expert to over two groups of new employees and a new manager. </dd>
             </dl>
 					</div>
 
@@ -108,8 +113,7 @@
             <h4><strong>Computer Technician</strong></h4>
             <dl>
               <dd>-Maintained, repaired, troubleshot, and serviced computer software/hardware equipment to low income families.</dd>
-              <dd>-Supported development and implementation on new computer projects.</dd>
-              <dd>-Taught K-12 students in private one-on-one or in group session on computer technologies.</dd>
+              <dd>-Taught K-12 students in private one-on-one or in group sessions on computer technologies.</dd>
             </dl>
           </div>
 
@@ -124,7 +128,7 @@
 
 					<div class="col-md-6 col-md-offset-3 wow bounceInUp">
 						<a class="button button--winnona button--border-thick button--text-thick" role="button"
-            href="https://s3-us-west-1.amazonaws.com/resume.troynguyen.xyz/Troy+Nguyen+Software+Engineer+Resume.pdf" download="Troy Nguyen Software Engineering Resume">Download Résumé</a>
+            href="https://s3-us-west-1.amazonaws.com/resume.troynguyen.xyz/Troy+Nguyen+Resume+-+Software+Engineer+New+Grad.pdf" download="Troy Nguyen Software Engineering Resume">Download Résumé</a>
 					</div>
 				</div><!-- .row -->
 
@@ -148,14 +152,8 @@
                   </div>
 
                   <div class="codeconSkillbar">
-                    <div id="codeconCSS">
-                      <span class="codeconSkillArea">CSS/CSS3</span>
-                    </div>
-                  </div>
-
-                  <div class="codeconSkillbar">
-                    <div id="codeconjQuery">
-                      <span class="codeconSkillArea ">jQuery</span>
+                    <div id="codeconSQL">
+                      <span class="codeconSkillArea">SQL</span>
                     </div>
                   </div>
 
@@ -166,20 +164,8 @@
                   </div>
 
                   <div class="codeconSkillbar">
-                    <div id="codeconPython">
-                      <span class="codeconSkillArea">Python</span>
-                    </div>
-                  </div>
-
-                  <div class="codeconSkillbar">
-                    <div id="codeconC">
-                      <span class="codeconSkillArea ">C#/C++</span>
-                    </div>
-                  </div>
-
-                  <div class="codeconSkillbar">
-                    <div id="codeconJAVA">
-                      <span class="codeconSkillArea ">Java</span>
+                    <div id="codeconCSS">
+                      <span class="codeconSkillArea">CSS/CSS3</span>
                     </div>
                   </div>
 
@@ -190,8 +176,20 @@
                   </div>
 
                   <div class="codeconSkillbar">
-                    <div id="codeconSQL">
-                      <span class="codeconSkillArea">SQL</span>
+                    <div id="codeconJAVA">
+                      <span class="codeconSkillArea ">Java</span>
+                    </div>
+                  </div>
+
+                  <div class="codeconSkillbar">
+                    <div id="codeconC">
+                      <span class="codeconSkillArea ">C#/C++</span>
+                    </div>
+                  </div>
+
+                  <div class="codeconSkillbar">
+                    <div id="codeconjQuery">
+                      <span class="codeconSkillArea ">jQuery</span>
                     </div>
                   </div>
 
@@ -210,86 +208,78 @@
     <div class="container">
       <h2 class="text-center wow fadeIn"> My work </h2>
       <p class="text-center"> To be uploaded soon.</p>
-        <div class="row">
-            <div class="col-lg-3 col-sm-6">
-              <div class="hovereffect">
-                   <img class="img-responsive" src="http://dreamworksol.com/images/html5_css3_javascript.jpg" alt="">
-                   <div class="overlay">
-                      <h2>Sample Project</h2>
-                      <a class="info" href="#">View Code</a>
-                   </div>
-               </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-              <div class="hovereffect">
-                   <img class="img-responsive" src="https://eladnava.com/content/images/2016/07/aws.jpg" alt="">
-                   <div class="overlay">
-                      <h2>Sample Project</h2>
-                      <a class="info" href="#">View Code</a>
-                   </div>
-               </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-              <div class="hovereffect">
-                   <img class="img-responsive" src="http://historicflight.co.za/wp-content/uploads/2015/04/bootstrap-4.jpg" alt="">
-                   <div class="overlay">
-                      <h2>Sample Project</h2>
-                      <a class="info" href="#">View Code</a>
-                   </div>
-               </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-              <div class="hovereffect">
-                   <img class="img-responsive" src="http://www.inspiringwallpapers.net/content/uploads/download-1920x1080/java-logo-orange.png" alt="">
-                   <div class="overlay">
-                      <h2>Sample Project</h2>
-                      <a class="info" href="#">View Code</a>
-                   </div>
-               </div>
-            </div>
-
-
-            <div class="col-lg-3 col-sm-6">
-              <div class="hovereffect">
-                   <img class="img-responsive" src="https://wallpaperscraft.com/image/ios_siri_icon_psd_103030_1920x1080.jpg" alt="">
-                   <div class="overlay">
-                      <h2>Sample Project</h2>
-                      <a class="info" href="#">View Code</a>
-                   </div>
-               </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="hovereffect">
-                   <img class="img-responsive" src="http://codehints.in/wp-content/uploads/2016/05/jQuery-debouncing-events.jpg" alt="">
-                   <div class="overlay">
-                      <h2>Sample Project</h2>
-                      <a class="info" href="#">View Code</a>
-                   </div>
-               </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="hovereffect">
-                   <img class="img-responsive" src="https://blog.myriadtruths.com/content/images/2016/01/maxresdefault-1--2.jpg" alt="">
-                   <div class="overlay">
-                      <h2>Sample Project</h2>
-                      <a class="info" href="#">View Code</a>
-                   </div>
-               </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="hovereffect">
-                   <img class="img-responsive" src="http://i.imgur.com/k4XqFTv.png" alt="">
-                   <div class="overlay">
-                      <h2>Sample Project</h2>
-                      <a class="info" href="#">View Code</a>
-                   </div>
-               </div>
-            </div>
-
-        </div>
+        <ul class="portfolio-grid">
+          <li class="wow bounceInDown">
+						<a href="https://github.com/troyGH/Cudos" class="animated flipInX">
+							<img src="<?php echo base_url("assets/img/cudos.png"); ?>" alt="Cudos"/>
+						</a>
+					</li>
+          <li class="wow bounceInDown">
+						<a href="https://github.com/tylerscave/Campfire" class="animated flipInX">
+							<img src="<?php echo base_url("assets/img/campfire.png"); ?>" alt="Campfire"/>
+						</a>
+					</li>
+					<li class="wow bounceInDown">
+						<a href="https://github.com/troyGH/SocialHub" class="animated flipInX">
+							<img src="<?php echo base_url("assets/img/socialhub.png"); ?>"  alt="SocialHub"/>
+						</a>
+					</li>
+          <li class="wow bounceInDown">
+						<a href="https://github.com/troyGH/FindMe" class="animated flipInX">
+							<img src="<?php echo base_url("assets/img/findme.png"); ?>"  alt="FindMe"/>
+						</a>
+					</li>
+          <li class="wow bounceInDown">
+						<a href="https://github.com/troyGH/Siri-Design-Improvement-for-Android" class="animated flipInX">
+							<img src="<?php echo base_url("assets/img/siri+.png"); ?>" alt="Siri"/>
+						</a>
+					</li>
+					<li  class="wow bounceInLeft">
+						<a href="#portfolio" class="animated flipInX">
+							<img src="http://placehold.it/200x200/27ae60/FFFFFF" alt="img01"/>
+						</a>
+					</li>
+					<li  class="wow bounceInLeft">
+						<a href="#portfolio" class="animated flipInX">
+							<img src="http://placehold.it/200x200/2980b9/FFFFFF" alt="img01"/>
+						</a>
+					</li>
+					<li  class="wow bounceInLeft">
+						<a href="#portfolio" class="animated flipInX">
+							<img src="http://placehold.it/200x200/8e44ad/FFFFFF" alt="img01"/>
+						</a>
+					</li>
+					<li  class="wow bounceInRight">
+						<a href="#portfolio" class="animated flipInX">
+							<img src="http://placehold.it/200x200/f1c40f/FFFFFF" alt="img01"/>
+						</a>
+					</li>
+					<li  class="wow bounceInRight">
+						<a href="#portfolio" class="animated flipInX">
+							<img src="http://placehold.it/200x200/e67e22/FFFFFF" alt="img01"/>
+						</a>
+					</li>
+					<li  class="wow bounceInUp">
+						<a href="#portfolio" class="animated flipInX">
+							<img src="http://placehold.it/200x200/e74c3c/FFFFFF" alt="img01"/>
+						</a>
+					</li>
+					<li  class="wow bounceInUp">
+						<a href="#portfolio" class="animated flipInX">
+							<img src="http://placehold.it/200x200/c0392b/FFFFFF" alt="img01"/>
+						</a>
+					</li>
+          <li  class="wow bounceInUp">
+            <a href="#portfolio" class="animated flipInX">
+              <img src="http://placehold.it/200x200/8e44ad/FFFFFF" alt="img01"/>
+            </a>
+          </li>
+          <li  class="wow bounceInUp">
+            <a href="#portfolio" class="animated flipInX">
+              <img src="http://placehold.it/200x200/f1c40f/FFFFFF" alt="img01"/>
+            </a>
+          </li>
+				</ul>
     </div>
 </section>
 
